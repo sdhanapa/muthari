@@ -31,8 +31,8 @@ void red(){
 
 int main() {
     //============Basic function pointer=============
-    //Declaring the function pointer
-    int (*operation)(int,int);
+    //Declaring the function pointer pointing nothing
+    int (*operation)(int,int) = NULL;
 
     //Initializing funciton pointer to add function.
     operation = add;

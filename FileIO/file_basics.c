@@ -24,7 +24,7 @@ int main() {
     if(fgets(buff,sizeof(buff), file) != NULL) {
         printf("\n output of line reading = %s",buff);
     }
-
+ 
     // reading structures data from file
     /* example: 
         Asha 10 22.45
